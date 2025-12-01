@@ -27,7 +27,7 @@ export const { GET, POST, PUT, DELETE, PATCH, HEAD } = Object.fromEntries(
         method: req.method,
         headers,
         body: req.body,
-        cache: 'no-store',
+        //cache: 'no-store',
       });
     }
   ])
